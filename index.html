@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Ewan Oleghe</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Ewan Oleghe, Dr." />
+    <script src="libs/header-attrs-2.23/header-attrs.js"></script>
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/rutgers-fonts.css" rel="stylesheet" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-84972342-5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-84972342-5');
+    </script>
+    <link rel="stylesheet" href="libs/lyngs_style.css" type="text/css" />
+    <link rel="stylesheet" href="libs/cols.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap-grid.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" type="text/css" />
+    <link rel="stylesheet" href="libs/css/academicons.min.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+
+class: title-slide
+
+
+
+.row[
+.col-7[
+.title[
+### Cultivo - Soil Science Lead, Senior Manager.
+]
+ 
+
+.subtitle[
+#### Interview with Ewan Oleghe
+##### 28 February 2024
+]
+.author[
+##### Ewan Oleghe, Dr.
+]
+
+.affiliation[
+##### Ph.D Soil Science&lt;br&gt;University of Aberdeen.
+]
+
+]
+
+.col-5[
+
+.logo[
+&lt;img src="figures/cultivo.png" width="256" /&gt;
+]
+&lt;br&gt;
+&lt;br&gt;
+---
+Cultivo Land
+
+Montana Data set:&lt;br&gt; [**CLICK HERE TO DOWNLOAD**](https://drive.google.com/file/d/1tnxUCGSVn4bcX_qW7lW0k16IRLkMnY_n/view)
+
+
+]
+
+]
+
+---
+### Task 1
+
+&lt;img src="figures/task1.png" width="100%" /&gt;
+
+
+---
+#### **Montana Dataset:** 
+
+
+.pull-left[
+
+```
+## Reading layer `usa_montana' from data source 
+##   `C:\Users\Omen\OneDrive\Jobs\Cultivo\test\usa_montana.json' 
+##   using driver `GeoJSON'
+## Simple feature collection with 4 features and 0 fields
+## Geometry type: POLYGON
+## Dimension:     XY
+## Bounding box:  xmin: -112.7744 ymin: 45.45211 xmax: -112.5474 ymax: 45.94572
+## Geodetic CRS:  WGS 84
+```
+]
+.pull-right[
+
+![](figures/unnamed-chunk-3-1.png)&lt;!-- --&gt;
+]
+---
+#### ** Grassland Regenation in Montana** 
+.pull-left[
+##### DNDC DNDC (Denitrification-Decomposition) Model
+
+&lt;img src="figures/DNDC.png" width="1377" /&gt;
+]
+
+.pull-right[
+
+##### DNDC Model Overview
+Biogeochemical model that simulates carbon and nitrogen cycling in terrestrial ecosystems
+##### Focus 
+ - Greenhouse gas emissions
+ - Soil carbon dynamics, and 
+ - Nutrient cycling. 
+
+Widely used to assess the impacts of land management practices, climate change, and other factors on soil organic carbon (SOC) stocks and fluxes.
+
+]
+---
+
+.pull-left[
+##### DNDC DNDC (Denitrification-Decomposition) Model
+##### Uses
+ - Estimate SOC baseline stocks
+ - Predict the effects of different land management practices on SOC stocks and greenhouse gas emissions.
+
+ The model requires input data such as climate data, soil properties, land use/cover, and management practices. 
+ - It can provide valuable insights into the potential benefits of the Montana grassland regeneration projects in terms of soil carbon sequestration and greenhouse gas mitigation.
+]
+
+.pull-right[
+
+##### DNDC Model - estimate SOC baseline stocks and annual fluxes due to land management changes
+##### 1. Baseline SOC Stocks
+ - Initial Measurements
+ - Dynamic Simulation.
+
+##### 2. Annual Fluxes due to Land Management Changes
+ - Management Scenarios 
+ - Changes in Input Parameters 
+ - Simulation and Comparison:
+
+##### 3. Model Outputs
+ - Change in SOC Stocks 
+ - Changes in Input Parameters 
+ - Annual Fluxes: In (e.g., plant residue) and Out (e.g., decomposition, erosion)
+]
+---
+
+.pull-left[
+##### DNDC Model - estimate SOC baseline stocks and annual fluxes
+##### 4. Validation and Sensitivity Analysis
+ - Validation
+ - Calibrate the model
+ - Sensitivity Analysis
+
+##### 5. Consider the historical land use and management practices to account for legacy effects on SOC stocks
+
+]
+
+.pull-right[
+
+##### DNDC Model - Model assumptions for estimating SOC baseline stocks and annual fluxes
+##### 1. Steady-State Assumption
+##### 2. Homogeneous Soil Conditions
+##### 3. Constant Climate Conditions (e.g., temperature, precipitation) over the simulation period
+##### 4. Static Land Use Change Effects
+##### 5. Linear Relationships
+##### 6. Neglecting Other Factors influenceing SOC dynamics (e.g, erosion, landform changes, and biotic interactions)
+##### 7. Model Calibration and Validation
+
+
+]
+---
+
+.pull-left[
+##### DNDC Model - Describe inputs (datasets and/or parameters) and outputs. What sampling methods/measurement techniques will you recommend?
+##### 1. DNDC Model inputs
+&lt;img src="figures/input.png" width="1072" /&gt;
+
+]
+
+.pull-right[
+
+##### 2. DNDC Model inputs: Datasets &amp; Parameters
+##### i. Datasets
+ - Climate Data
+ - Soil Data
+ - Land Use and Management  Data
+ - Initial Soil Conditions
+ 
+##### ii. Parameters
+ - Plant Parameters
+ - Microbial Parameters
+ - Other Biogeochemical Parameters (biogeochemical processes e.g. C and N mineralization rates)
+]
+---
+
+.pull-left[
+##### DNDC Model - Output
+##### 1. Carbon Dynamics
+ - Total C in the system (soil, vegetation, and atmosphere).
+ - Soil organic carbon stocks and changes over time.
+ - `\(CO_{2}\)` emissions from soil and vegetation.
+
+##### 2. Nitrogen Dynamics:
+
+ - Total N in the system (soil, vegetation, and atmosphere).
+ - `\(NO_{3}^-\)` and `\(NH_{4}^+\)` conc in soil.
+ - `\(N_{2}\)`O emissions from soil.
+
+##### 3. Other Outputs:
+
+ - Crop yields and biomass production.&lt;br&gt;
+ -  Water balance components (evapotranspiration, soil moisture).
+    - Nitrogen leaching and runoff.
+
+]
+
+.pull-right[
+
+##### 2. DNDC Model inputs: Datasets &amp; Parameters
+##### i. Datasets
+ - Climate Data
+ - Soil Data
+ - Land Use and Management  Data
+ - Initial Soil Conditions
+ 
+##### ii. Parameters
+ - Plant Parameters
+ - Microbial Parameters
+ - Other Biogeochemical Parameters (biogeochemical processes e.g. C and N mineralization rates)
+]
+---
+
+.pull-left[
+##### What sampling methods/measurement techniques will you recommend?
+##### 1. Climate Data
+ - Temperature, precipitation, and solar radiation data [weather stations or meteorological databases].
+
+##### 2. Soil Data
+
+ - Conduct soil surveys to collect soil samples for analysis of texture, organic matter content, bulk density, pH, and other relevant properties.
+ - soil databases or previous studies.
+
+##### 3. Land Use and Management Data:
+
+ - Collect data on land use, cropping systems, fertilization practices, and irrigation from field surveys or agricultural records.
+ - Use remote sensing data for land use classification and monitoring changes over time.
+
+]
+
+.pull-right[
+
+#####.  
+##### 4. Measurement Techniques:
+
+ - Use standard laboratory methods for analyzing soil samples for texture, organic matter content, bulk density, and pH.
+ - Use established protocols for measuring crop yields, biomass production, and nutrient concentrations in soil and plants.
+ - Employ eddy covariance or chamber-based systems for measuring greenhouse gas emissions from soil and vegetation.
+
+]
+---
+
+.pull-left[
+##### What data will you use to validate/calibrate your model? What statistics will you use to assess model performance?
+##### a. Data for Calibration and Validation:
+
+ - Field Data: Field measurements of soil carbon and nitrogen dynamics, greenhouse gas emissions (e.g., CO2, N2O), crop yields, and other relevant variables.
+ - Experimental Data: Data from experimental studies or long-term monitoring sites.
+ - Remote Sensing Data: Satellite or aerial imagery for land use/cover classification, vegetation productivity, etc.
+ - Meteorological Data: High-quality meteorological data for temperature, precipitation, and solar radiation.
+
+]
+
+.pull-right[
+
+#####  .
+##### b. Statistics for Assessing Model Performance:
+
+ - Root Mean Square Error (RMSE)
+ - Coefficient of Determination (R2)
+ - Bias
+ - Model Efficiency (EF)
+ - Normalized RMSE (NRMSE)
+ - Percent Bias (PBIAS)
+
+]
+---
+
+.pull-left[
+##### DNDC Model limitations
+
+ 1. Simplification of Processes
+ 2. Input Data Requirements
+ 3. Parameterization
+ 4. Scale Dependency
+ 5. Limited Validation
+ 6. Assumptions
+ 7. Lack of Representation of Certain Processes
+ 8. Limited Spatial and Temporal Resolution
+ 9. Model Complexity
+
+]
+
+.pull-right[
+
+##### Anticipated implementation challenges
+ 1. Data Availability and Quality
+ 2. Model Complexity
+ 3. Parameterization and Calibration
+ 4. Scale Dependency
+ 5. Model Validation
+ 6. Computational Resources
+ 7. Interpretation of Results
+
+]
+---
+
+#### ** Task 2** 
+.pull-left[
+##### Digital soil stratification tool for grasslands/rangelands regeneration projects.
+
+&lt;img src="figures/model.png" width="1731" /&gt;
+]
+
+.pull-right[
+
+##### Key features and outputs of the tool
+##### Soil Mapping
+By integrating these scientific and conceptual elements, digital soil stratification tools provide valuable information for land use planning, agriculture, environmental management, and natural resource conservation
+
+##### Potential limitations
+ 1. Data Availability and Quality
+ 2. Complexity and Interpretation
+ 3. Model Uncertainty |  6. Model Validation
+ 4. Temporal Dynamics | 7. Expertise and Resources
+ 5. Cost and Time | 8. Scale and Resolution
+
+]
+
+
+---
+class: center, middle
+
+# Thank You!
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="libs/remark-latest.min.js"></script>
+<script src="https://platform.twitter.com/widgets.js"></script>
+<script src="libs/cols_macro.js"></script>
+<script>var slideshow = remark.create({
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "10:6",
+"navigation": {
+"scroll": false
+}
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
