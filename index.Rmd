@@ -345,7 +345,7 @@ knitr::include_graphics("figures/model.png")
 .pull-right[
 
 ##### Key features and outputs of the tool
-##### Soil Mapping
+##### ** Soil Property Mapping
 By integrating these scientific and conceptual elements, digital soil stratification tools provide valuable information for land use planning, agriculture, environmental management, and natural resource conservation
 
 ##### Potential limitations
@@ -357,6 +357,10 @@ By integrating these scientific and conceptual elements, digital soil stratifica
 
 ]
 
+---
+```{r}
+knitr::include_graphics("figures/sampling.png")
+```
 
 ---
 class: center, middle
