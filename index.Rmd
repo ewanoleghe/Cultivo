@@ -358,12 +358,59 @@ By integrating these scientific and conceptual elements, digital soil stratifica
 ]
 
 ---
+class: center, middle
+
+# Thank You!
+
+---
+```{r}
+knitr::include_graphics("figures/lu.png")
+```
+
+---
+
 ```{r}
 knitr::include_graphics("figures/sampling.png")
 ```
 
 ---
-class: center, middle
+#### ** Some Grassland Projects - Duke farms Nature Preserve** 
+.pull-left[
 
-# Thank You!
+```{r}
+knitr::include_graphics("figures/soc_s.png")
+```
+]
+
+.pull-right[
+
+
+```{r}
+knitr::include_graphics("figures/soc_s2.png")
+```
+
+]
+---
+#### ** Grassland Regenation in Duke Farms** 
+.pull-left[
+
+```{r}
+knitr::include_graphics("figures/bd.png")
+```
+]
+
+.pull-right[
+
+
+```{r}
+knitr::include_graphics("figures/soc_V.png")
+```
+]
+---
+#### ** Vertical Distribution Duke Farms** 
+
+```{r}
+knitr::include_graphics("figures/soc_va.png")
+```
+
 
